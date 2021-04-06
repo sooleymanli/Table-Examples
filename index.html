@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Examples</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <table>
+        <caption>Table 1</caption>
+
+        <tr>
+            <td colspan="3"><b>Invoice #123456789</b></td>
+            <td><b>14 January 2025</b></td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Pay to:</b> <br> Acme Billing Co. <br>123 Main St. <br> Cityville, NA 12345</td>
+            <td colspan="2"><b>Customer:</b> <br>John Smith <br>321 Willow Way <br> Southeast Northwestershire, MA 54321
+            </td>
+        </tr>
+        <tr>
+            <td><b>Name/Description</b></td>
+            <td><b>Qty.</b></td>
+            <td><b>@</b></td>
+            <td><b>Cost</b></td>
+        </tr>
+        <tr>
+            <td>Staples (box)</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Subtotal</b></td>
+            <td>110.00</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Tax</b></td>
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Grand Total</b></td>
+            <td>$ 118.80</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+        <caption>Table 2</caption>
+        <tr>
+            <th rowspan="3"><b>Day</b></th>
+            <th colspan="3"><b>Seminar</b></th>
+        </tr>
+        <tr>
+            <th colspan="2"><b>Schedule</b></th>
+            <th rowspan="2"><b>Topic</b></th>
+        </tr>
+        <tr>
+            <th><b>Begin</b></th>
+            <th><b>End</b></th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m.</td>
+            <td rowspan="2">5:00 p.m.</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 a.m</td>
+            <td>11:00 a.m</td>
+            <td>XPath</td>
+        </tr>
+        <tr>
+            <td>11:00 a.m</td>
+            <td>2:00 p.m</td>
+            <td rowspan="2">XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>2:00 p.m</td>
+            <td>5:00 p.m</td>
+
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 a.m</td>
+            <td>12:00 p.m</td>
+            <td>XSL Formatting Objects</td>
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
